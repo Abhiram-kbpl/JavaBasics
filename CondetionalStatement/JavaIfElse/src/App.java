@@ -13,10 +13,12 @@ public class App {
         if(first>second){
             System.out.println("first number is greater ");
         }
-        else{
+        else if (first<second){
             System.out.println("second number is greater ");
         }
-        sc.close();
+        else {
+            System.out.println("both number are equal 5");
+        }
 
         
     }
