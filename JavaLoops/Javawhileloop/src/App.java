@@ -19,7 +19,6 @@ public class App {
             password =sc.nextInt();
         }
             System.out.println("you entered the correct password  ");
-            
             System.out.println("WELCOME");
 
             sc.close();
